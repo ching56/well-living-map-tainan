@@ -1,0 +1,32 @@
+$black-color: #333;
+$max-width: 1280px;
+$min-width: 400px;
+
+* {
+	border: 1px solid black;
+}
+
+* {
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: $max-width;
+	min-width: $min-width;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+  background-color: $black-color;
+  color: white;
+}
